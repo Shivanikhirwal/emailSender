@@ -22,8 +22,8 @@ function sendPdf($name, $email, $post, $status)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kdhar499@gmail.com';
-        $mail->Password = 'axoo wtlt etex hbnp';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
